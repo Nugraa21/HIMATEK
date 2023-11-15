@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIMATEK</title>
     <link rel="icon" href="MEDIA/HIMATEK 2.png" type="icon">
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /></head>
 <body>
     <section>
         <div class="navbar-whatsapp"  >
@@ -76,8 +76,8 @@
 
  <section id="about" class="about">
     <div class="row">
-        <div class="content">
-            <img src="MEDIA/HIMATEK-1.png" alt="Tentang Kami" width="25%" height="25%">
+        <div class="content" data-aos="flip-left" >
+            <img data-aos="fade-up" src="MEDIA/HIMATEK-1.png" alt="Tentang Kami" width="25%" height="25%">
 
             <h3>Apa itu HIMATEK</h3>
             <p>
@@ -101,16 +101,16 @@
             </p>
         </section>
         <div class="roow">
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in" >
                 <div class="product-image">
                     <img src="MEDIA/legal.png" alt="Product 1">
                 </div>
-                <div class="product-content">
+                <div class="product-content" >
                     <h3>Legal</h3>
                     <div class="product-price">Kami merupakan Organisasi Mahasiswa yang sudah dinaugi oleh Kaprodi Teknik Komputer (Kemahasiswaan) Universitas Teknologi Digital Indonesia</div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in">
                 <div class="product-image">
                     <img src="MEDIA/kreatif.png" alt="Product 1">
                 </div>
@@ -119,7 +119,7 @@
                     <div class="product-price">Kami memiliki SDM yang sangat aktif dan memiliki pemikiran yang sangat kreatif serta dapat mendukung Anda dalam hal Perkuliahan dan Minat Bakat</div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in">
                 <div class="product-image">
                     <img src="MEDIA/profesional.png" alt="Product 1">
                 </div>
@@ -130,7 +130,7 @@
             </div>
         </div>
         <div class="roow">
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in">
                 <div class="product-image">
                     <img src="MEDIA/fasilitas.png" alt="Product 1">
                 </div>
@@ -139,7 +139,7 @@
                     <div class="product-price">Kami memiliki Berbagai fasilitas yang dapat mendukung perkembangan mahasiswa Program Studi Sistem Informasi di UTDI</div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in">
                 <div class="product-image">
                     <img src="MEDIA/kerjasama.png" alt="Product 1">
                 </div>
@@ -148,7 +148,7 @@
                     <div class="product-price">Kami memiliki program kerja yang bekerjasama dengan beberapa mitra mulai dari organisasi internal maupun external dari Universitas Teknologi Digital Indonesia</div>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in">
                 <div class="product-image">
                     <img src="MEDIA/totalitas.png" alt="Product 1">
                 </div>
@@ -212,8 +212,8 @@
 
     <!-- Footer start -->
     <footer>
-        <div class="fouter">
-            <div class="fouter-logo">
+        <div class="fouter" >
+            <div class="fouter-logo"  data-aos="flip-up">
                 <h4>HIMA <span>TEK</span></h4>
                 <p>Himpunan Mahasiswa Teknik Komputer</p>
                 <ol>
@@ -232,7 +232,10 @@
             <p>Created by <a href="">HIMATEK</a>. | &copy; 2023.</p>
             <p>Develop by <a href="">Ludang Prasetyo N | Nugra315@gmail.com</a>. </p>
         </div>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </footer>
 </body>
 </html>
