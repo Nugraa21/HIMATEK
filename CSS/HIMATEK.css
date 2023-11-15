@@ -323,47 +323,69 @@ body {
 
 
 /* Footer */
-footer {
-    background-color: blue;
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    background-color: #0077ff;
     text-align: center;
-    padding: 1rem 0 3rem;
+}
+.credit{
+    background-color: #808080;
+    text-align: center;
+    padding: 2rem;
     
 }
-
-footer .socials {
-    padding: 1rem 0;
-    padding: 1rem;
+.fouter-logo h4 {
+    background-color: #3b3a3a38;
     border-radius: 1rem;
-    
-}
-
-footer .socials a {
-    color: #fff;
-    margin: 1rem;
-    /* background-color:rgb(0, 0, 171);
-    padding: 1rem;
-    border-radius: 1rem; */
-}
-
-footer .socials a:hover{
-    color:rgb(0, 0, 0);
-}
-
-
-footer .credit {
-    font-size: 0.8rem;
-}
-
-footer .credit a {
-    color: rgb(255, 0, 0);
+    color: #000000;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
+
+
+
 }
+.fouter-logo p {
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.fouter-logo {
+    list-style: none;
+    padding: 1rem;
+    line-height: 1.6;
+
+}
+.fouter-logo ol{
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.3rem;
 
 
 
+}
+.fouter-logo ol li a{
+    color: #fff;
 
 
+}
+.fouter-logo ol li a:hover{
+    color: #000000;
+
+
+}
+.credit{
+    background-color: #393939;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+}
+.credit a{
+    color: #005eec;
+
+
+}
 /* .conten-ebaut{
     text-align: center;
 }
