@@ -146,3 +146,8 @@ body {
     color: #005eec;
 }
 
+/* ----------------------------------- */
+.content-anggota .panah{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -151,6 +151,10 @@ body {
     
 
 }
+.content{
+    background-color: #0079ff;
+
+}
 /* .video-bg-1{
     position: fixed;
     top: 0;
@@ -210,7 +214,7 @@ body {
 }
 
 .about {
-    padding: 1rem 10% 1.4rem;
+    padding: 4rem 10% 1.4rem;
 }
 
 .about .row .content {
@@ -327,6 +331,8 @@ body {
     background-color: #00166eda;
     font-weight: 700;
     font-size: 1.2rem;
+    line-height: 4rem;
+
 }
 .promosi-iklan{
     text-align: center;
