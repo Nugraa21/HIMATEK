@@ -48,18 +48,21 @@ body {
     color:#005eec ;
 }
 
-.navbar .navbar-nav a {
+.navbar .navbar-nav a ,
+.navbar .navbar-navv a {
     color: #fff;
     display: inline-block;
     font-size: 1.3rem;
     margin: 0 1rem;
 }
 
-.navbar .navbar-nav a:hover {
+.navbar .navbar-nav a:hover ,
+.navbar .navbar-navv a:hover {
     color: #000000;
 }
 
-.navbar .navbar-nav a::after  {
+.navbar .navbar-nav a::after  ,
+.navbar .navbar-navv a::after  {
     content: '';
     display: block;
     padding-bottom: 0.5rem;
@@ -68,15 +71,18 @@ body {
     transition: 0.2s linear;
 }
 
-.navbar .navbar-nav a:hover::after {
+.navbar .navbar-nav a:hover::after, 
+.navbar .navbar-navv a:hover::after {
     transform: scaleX(0.5);
 }
-.navbar-nav a:hover{
+.navbar-nav a:hover,
+.navbar-navv a:hover{
     padding: 0.4rem;
         background-color: #0066ff;
         border-radius: 5px;
 }
-.navbar-nav a{
+.navbar-nav a,
+.navbar-navv a{
     padding: 0.4rem;
         background-color:rgb(1, 1, 1);
         border-radius: 5px;
@@ -134,7 +140,89 @@ body {
 .navbar-whatsapp a:hover{
     color: #005eec;
 }
+.navbar-navv{
+    display: none;
+}
 
+/* ================================ */
+
+.navbar-extrajs{
+    text-align: center;
+        background-color: #005eec;
+        border-bottom: solid rgb(0, 31, 134);
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
+        position: fixed;
+        margin: 1rem ;
+        /* padding-top: 10rem; */
+        top: 14rem;
+        /* left: 1rem; */
+        /* right: 115rem; */
+        /* height: 40px; */
+        /* top: 90%; */
+        z-index: 9999;
+        padding: 1rem;
+            border-radius: 5px;
+
+
+}
+.navbar-navjs{
+    text-align: center;
+        background-color: #005eec;
+        border-bottom: solid rgb(0, 31, 134);
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
+        position: fixed;
+        margin: 1rem ;
+        /* padding-top: 10rem; */
+        top: 9rem;
+        /* left: 1rem; */
+        /* right: 115rem; */
+        /* height: 40px; */
+        /* top: 90%; */
+        z-index: 9999;
+        padding: 1rem;
+            border-radius: 5px;
+
+
+}
+.navbar-whatsapp{
+    position: fixed;
+    margin: 1rem 3%;
+    /* padding-top: 10rem; */
+    top: 50rem;
+    /* left: 1rem; */
+    /* right: 115rem; */
+    /* height: 40px; */
+    /* top: 90%; */
+    z-index: 9999;
+    padding: 1rem;
+        background-color: rgb(0, 236, 90);
+        border-radius: 5px;
+
+}
+.navbar-extrajs:hover,
+.navbar-navjs:hover ,
+.navbar-whatsapp:hover{
+        background-color: #001657;
+        border-radius: 5px;
+
+}
+.navbar-extrajs a ,
+.navbar-navjs a ,
+.navbar-whatsapp a{
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.navbar-extrajs a:hover ,
+.navbar-navjs a:hover ,
+.navbar-whatsapp a:hover{
+    color: #005eec;
+}
+/* display none js */
+.navbar-navjs ,
+.navbar-extrajs{
+    display: none;
+}
 
 
 
@@ -509,10 +597,115 @@ body {
 
 
 
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+    .navbar-extra{
+        display: none;
+    }
+    .navbar-navv{
+        display: block;
+    }
+    html {
+        font-size: 62.5%;
+    }
 
 
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    .navbar .search-form {
+        width: 90%;
+        right: 2rem;
+    }
+
+    .about .row {
+        flex-wrap: wrap;
+    }
+
+    .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.6rem;
+    }
+
+    .menu p {
+        font-size: 1.2rem;
+    }
+
+    .contact .row {
+        flex-wrap: wrap;
+    }
+
+    .contact .row .map {
+        height: 30rem;
+    }
+
+    .contact .row form {
+        padding-top: 0;
+    }
+
+    .modal-content {
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
 
 
+/* ========== */
 
 
 
