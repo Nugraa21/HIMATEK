@@ -152,7 +152,7 @@ body {
         border-bottom: solid rgb(0, 31, 134);
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
         position: fixed;
-        margin: 1rem ;
+        margin: 1rem 3%;
         /* padding-top: 10rem; */
         top: 14rem;
         /* left: 1rem; */
@@ -171,7 +171,7 @@ body {
         border-bottom: solid rgb(0, 31, 134);
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
         position: fixed;
-        margin: 1rem ;
+        margin: 1rem 3%;
         /* padding-top: 10rem; */
         top: 9rem;
         /* left: 1rem; */
@@ -617,6 +617,9 @@ body {
         font-size: 62.5%;
     }
 
+    #hamburger-menu {
+        display: inline-block;
+    }
 
     .navbar .navbar-nav {
         position: absolute;
