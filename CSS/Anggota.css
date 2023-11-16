@@ -12,10 +12,23 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #0079ff;
+    /* background-color: #0079ff; */
     color: #ffffff;
-    min-height: 20000px;
+    /* min-height: 20000px; */
 }
+
+.sec {
+    background-image: url(../MEDIA/bg2.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
 
 /* Navbar */
 
@@ -79,11 +92,6 @@ body {
         border-radius: 5px;
 }
 
-.content{
-    padding-top: 8rem;
-    padding: 8rem 3%;
-
-}
 .row{
     display: flex;
 }
@@ -98,6 +106,9 @@ body {
     padding: 0.3rem;
         background-color: #005eec;
         border-radius: 5px;
+        border-bottom: solid rgb(0, 31, 134);
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
+
 
 }
 .navbar-navjs{
@@ -110,6 +121,8 @@ body {
     padding: 0.3rem;
         background-color: #005eec;
         border-radius: 5px;
+        border-bottom: solid rgb(0, 31, 134);
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
 
 }
 .navbar-whatsapp{
@@ -145,9 +158,136 @@ body {
 .navbar-whatsapp a:hover{
     color: #005eec;
 }
+/* display none js */
+.navbar-navjs ,
+.navbar-extrajs{
+    display: none;
+}
+
 
 /* ----------------------------------- */
+.jabatan{
+    text-align: center;
+    line-height: 1.6;
+    padding: 1rem;
+    background-color: #002491;
+
+}
+.jabatan h1{
+    color: #fff;
+
+
+}
+.jabatan h2{
+    color: yellow;
+
+}
+.content{
+    padding-top: 6rem;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.panah{
+    padding-top: 2rem;
+    background-color: #001657b4;
+}
+.column {
+    padding-top: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
 .content-anggota .panah{
+    line-height: 1.6;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
+}
+.content-anggota .panah h2{
+    background-color: #008cff;
+    border-radius: 1rem;
+
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+.content-anggota .panah p{
+    
+    color: yellow;
+    font-weight: 600;
+    font-size: 15px;
+}
+.content-anggota .panah img{
+    border-radius: 50%;
+}
+
+
+
+
+/* Footer */
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    background-color: #0077ff;
+    text-align: center;
+}
+.credit{
+    background-color: #808080;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.fouter-logo h4 {
+    background-color: #3b3a3a38;
+    border-radius: 1rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+
+
+}
+.fouter-logo p {
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.fouter-logo {
+    list-style: none;
+    padding: 1rem;
+    line-height: 1.6;
+
+}
+.fouter-logo ol{
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+
+
+}
+.fouter-logo ol li a{
+    color: #fff;
+
+
+}
+.fouter-logo ol li a:hover{
+    color: #000000;
+
+
+}
+.credit{
+    background-color: #393939;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+}
+.credit a{
+    color: #005eec;
+
+
 }
