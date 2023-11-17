@@ -227,6 +227,9 @@ body {
 
 
 /* section content  */
+.kaprodi img{
+    border-radius: 50%;
+}
 .about{
     background-color: #0079ff;
 
