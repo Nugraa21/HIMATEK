@@ -56,30 +56,5 @@
         <a href="REGISTRASI.html">Login</a>
         </h1>
     </div>
-
-    <script>
-
-        // Meminta pengguna untuk memasukkan informasi pribadi
-        var nama = prompt("Nama:");
-        var nim = prompt("NIM:");
-        var kode = prompt("Kode masuk:");
-
-        // Memeriksa apakah pengguna memberikan informasi dan kode yang benar
-        if (nama && nim && kode && kode.toLowerCase() === "admin") {
-
-            // Menampilkan pesan selamat datang dengan informasi yang dimasukkan
-            var pesan = "Selamat datang, " + nama + "! \nNIM: " + nim + "\nKode: " + kode;
-            alert(pesan);
-
-            // Mengalihkan ke halaman yang ditentukan
-            window.location.href = "HIMATEK.html";
-        } else {
-            // Jika pengguna tidak memberikan informasi atau kode salah, tampilkan alert
-            alert("Kode yang anda masukan salah");
-            window.location.href = "LOGIN.html";
-
-        }
-    </script>
-
 </body>
 </html>
