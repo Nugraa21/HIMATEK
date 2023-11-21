@@ -1,3 +1,8 @@
+/* Tambahkan gaya untuk navigasi yang berubah saat digulir ke bawah */
+.header-scroll {
+    background-color: #ff0000;
+    transition: background-color 0.3s ease-in-out;
+}
 
 
 * {
