@@ -17,10 +17,6 @@
             color: #000000; 
             border-radius: 1rem;
             line-height: 4rem;
-
-
-
-
         }
 
         .peringatam h1 {
@@ -41,7 +37,6 @@
         .peringatam a:hover {
             color: rgb(0, 174, 255);
             background-color: #ffffff;
-
         }
 
     </style>
@@ -58,26 +53,18 @@
     </div>
 
     <script>
-
-        // Meminta pengguna untuk memasukkan informasi pribadi
         var nama = prompt("Nama:");
         var nim = prompt("NIM:");
-        var kode = prompt("Kode masuk:");
+        var password = prompt("Password:");
 
-        // Memeriksa apakah pengguna memberikan informasi dan kode yang benar
-        if (nama && nim && kode && kode.toLowerCase() === "admin") {
-
-            // Menampilkan pesan selamat datang dengan informasi yang dimasukkan
-            var pesan = "Selamat datang, " + nama + "! \nNIM: " + nim + "\nKode: " + kode;
+        if (nama && nim && password && password.toLowerCase() === "admin") {
+            var pesan = "Selamat datang, " + nama + "! \nNIM: " + nim + "\nPassword: " + password;
             alert(pesan);
 
-            // Mengalihkan ke halaman yang ditentukan
             window.location.href = "HIMATEK.html";
         } else {
-            // Jika pengguna tidak memberikan informasi atau kode salah, tampilkan alert
-            alert("Kode yang anda masukan salah");
+            alert("Password yang anda masukan salah");
             window.location.href = "LOGIN.html";
-
         }
     </script>
 
