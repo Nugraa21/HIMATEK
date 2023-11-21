@@ -17,10 +17,6 @@
             color: #000000; 
             border-radius: 1rem;
             line-height: 4rem;
-
-
-
-
         }
 
         .peringatam h1 {
@@ -30,6 +26,7 @@
         .peringatam span {
             color: #0066ff; /* Warna teks kuning pada span */
         }
+
         .peringatam a {
             text-decoration: none;
             color: rgb(255, 255, 255);
@@ -37,24 +34,82 @@
             margin: 1rem;
             background-color: #0066ff;
             border-radius: 1rem;
+            cursor: pointer;
         }
+
         .peringatam a:hover {
             color: rgb(0, 174, 255);
             background-color: #ffffff;
-
         }
 
+        /* Modal styles */
+        .modal {
+            
+            display: none;
+            position: fixed;
+            background-color: #0066ff;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
+            line-height: 2.2rem;
+            top: 60%;
+        }
+        .modal a{
+            padding: 1rem;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 1rem;
+            margin: 1rem;
+        }
+        .modal a:hover{
+            color: #ffffff;
+        }
+        .modal span{
+            margin: 1rem;
+
+            cursor: pointer;
+            padding: 1rem;
+            color: #ffffff;
+            border-radius: 1rem;
+        }
+        .modal span:hover{
+            color: #ffffff;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIMATEK.LOGIN</title>
+    <link rel="icon" href="HTML/MEDIA/HIMATEK 2.png" type="icon">
 </head>
 <body>
     <div class="peringatam">
-        <h1>
-        Login untuk masuk ke web <span>HIMATEK</span><br>
-        <a href="HTML/REGISTRASI.html">Login</a>
-        </h1>
+        <h1>Login untuk masuk ke web <span>HIMATEK</span></h1>
+        <a onclick="openModal()">Login</a>
     </div>
+
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+        <a href="HTML/REGISTRASI.html"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </a>
+        <a href="HTML/REGISTRASI.html"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </a>
+        <span onclick="closeModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></span>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+    </script>
 </body>
 </html>
