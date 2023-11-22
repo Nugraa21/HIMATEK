@@ -3,28 +3,33 @@
 <head>
     <style>
         body {
-            background-color: #ffffff;
+            background-image: url("HTML/MEDIA/bg2.jpg"); /* Ganti path dengan lokasi gambar latar belakang Anda */
+            background-size: cover; /* Pastikan gambar latar belakang mencakup seluruh body */
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
             margin: 0;
         }
-
         .peringatam {
             padding: 5rem;
             text-align: center;
             color: #000000; 
             border-radius: 1rem;
             line-height: 4rem;
+                        text-shadow: 1px 1px 4px rgba(0, 0, 0, 9);
+
+
         }
 
         .peringatam h1 {
             margin: 0;
+            color: white;
         }
 
         .peringatam span {
             color: #0066ff; /* Warna teks kuning pada span */
+
         }
 
         .peringatam a {
@@ -43,40 +48,42 @@
         }
 
         /* Modal styles */
-        .modal {
-            
-            display: none;
+        .navbar {
+            justify-content: center;
+            /* display: none; */
             position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
             background-color: #0066ff;
             color: #ffffff;
-            padding: 1rem;
-            border-radius: 10px;
+            padding: 2rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             z-index: 1;
             text-align: center;
-            line-height: 2.2rem;
-            top: 60%;
         }
-        .modal a{
-            padding: 1rem;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 1rem;
-            margin: 1rem;
-        }
-        .modal a:hover{
-            color: #ffffff;
-        }
-        .modal span{
-            margin: 1rem;
 
-            cursor: pointer;
-            padding: 1rem;
+        .navbar a {
+            text-decoration: none;
             color: #ffffff;
+            padding: 1rem;
+            margin: 1rem;
             border-radius: 1rem;
         }
-        .modal span:hover{
+        .navbar span {
+            text-decoration: none;
             color: #ffffff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+        .navbar span:hover {
+            color: #62a1ff;
+        }
+
+        .navbar a:hover {
+            color: rgb(0, 174, 255);
         }
     </style>
     <meta charset="UTF-8">
@@ -86,29 +93,24 @@
 </head>
 <body>
     <div class="peringatam">
-        <h1>Login untuk masuk ke web <span>HIMATEK</span></h1>
-        <a onclick="openModal()">Login</a>
+        <h1>Login untuk masuk ke web <span>HIMATEK</span>.</h1>
+        <a onclick="openNavbar()">Login</a>
     </div>
 
-    <!-- Modal content -->
-    <div id="myModal" class="modal">
-        <a href="HTML/REGISTRASI.html"> 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-        </a>
-        <a href="HTML/REGISTRASI.html"> 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-        </a>
-        <span onclick="closeModal()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></span>
+    <!-- Navbar content -->
+    <div id="navbar" class="navbar">
+        <a href="HTML/REGISTRASI.html">Register</a>
+        <a href="HTML/REGISTRASI.html">Users</a>
+        <span onclick="closeNavbar()">Close</span>
     </div>
 
     <script>
-        function openModal() {
-            document.getElementById("myModal").style.display = "block";
+        function openNavbar() {
+            document.getElementById("navbar").style.display = "block";
         }
 
-        function closeModal() {
-            document.getElementById("myModal").style.display = "none";
+        function closeNavbar() {
+            document.getElementById("navbar").style.display = "none";
         }
     </script>
 </body>
