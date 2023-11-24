@@ -38,7 +38,7 @@ body {
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgb(1, 1, 1);
-    border-bottom: 3px solid #393939;
+    /* border-bottom: 3px solid #393939; */
     position: fixed;
     top: 0;
     left: 0;
@@ -271,6 +271,7 @@ body {
     
 }
 .fouter-logo h4 {
+    
     background-color: #3b3a3a38;
     border-radius: 1rem;
     color: #000000;
@@ -310,13 +311,13 @@ body {
 
 }
 .credit{
-    background-color: #393939;
+    background-image: linear-gradient(to bottom right, #0077ff, #00087c);
     line-height: 1.6;
     font-size: 1.3rem;
 
 }
 .credit a{
-    color: #005eec;
+    color: #000000;
 
 
 }

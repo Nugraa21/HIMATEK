@@ -109,38 +109,6 @@ body {
 .navbar .navbar-extra a:hover {
     color: #005eec;
 }
-
-.navbar-whatsapp{
-    position: fixed;
-    margin: 1rem 3%;
-    /* padding-top: 10rem; */
-    top: 50rem;
-    /* left: 1rem; */
-    /* right: 115rem; */
-    /* height: 40px; */
-    /* top: 90%; */
-    z-index: 9999;
-    padding: 1rem;
-        background-color: rgb(0, 236, 90);
-        border-radius: 5px;
-
-}
-
-.navbar-whatsapp:hover{
-        background-color: #001657;
-        border-radius: 5px;
-
-}
-
-.navbar-whatsapp a{
-    color: #fff;
-    margin: 0 0.5rem;
-}
-
-
-.navbar-whatsapp a:hover{
-    color: #005eec;
-}
 .navbar-navv{
     display: none;
 }
@@ -185,38 +153,21 @@ body {
 
 
 }
-.navbar-whatsapp{
-    position: fixed;
-    margin: 1rem 3%;
-    /* padding-top: 10rem; */
-    top: 50rem;
-    /* left: 1rem; */
-    /* right: 115rem; */
-    /* height: 40px; */
-    /* top: 90%; */
-    z-index: 9999;
-    padding: 1rem;
-        background-color: rgb(0, 236, 90);
-        border-radius: 5px;
 
-}
 .navbar-extrajs:hover,
-.navbar-navjs:hover ,
-.navbar-whatsapp:hover{
+.navbar-navjs:hover{
         background-color: #001657;
         border-radius: 5px;
 
 }
 .navbar-extrajs a ,
-.navbar-navjs a ,
-.navbar-whatsapp a{
+.navbar-navjs a{
     color: #fff;
     margin: 0 0.5rem;
 }
 
 .navbar-extrajs a:hover ,
-.navbar-navjs a:hover ,
-.navbar-whatsapp a:hover{
+.navbar-navjs a:hover{
     color: #005eec;
 }
 /* display none js */
@@ -276,10 +227,11 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    background-image: linear-gradient(to bottom right, #00101d, #0011ff);
+
 }
 .panah-pengurus{
     padding-top: 2rem;
-    background-color: #001657;
     
 }
 .column {
@@ -290,6 +242,7 @@ body {
     /* background-color: rgba(255, 255, 255, 0.678); */
     border-radius: 1rem;
     /* border: 4px solid rgb(0, 0, 0); */
+    
     border-bottom: 3px solid #00039b;
 
 
@@ -557,6 +510,7 @@ body {
     
 }
 .fouter-logo h4 {
+    
     background-color: #3b3a3a38;
     border-radius: 1rem;
     color: #000000;
@@ -596,13 +550,13 @@ body {
 
 }
 .credit{
-    background-color: #393939;
+    background-image: linear-gradient(to bottom right, #0077ff, #00087c);
     line-height: 1.6;
     font-size: 1.3rem;
 
 }
 .credit a{
-    color: #005eec;
+    color: #000000;
 
 
 }
