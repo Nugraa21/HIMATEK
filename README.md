@@ -1,5 +1,6 @@
 # HIMATEK
 Websait Himpunan Mahasiswa Teknik Komputer 
+
 #Tampilan web 
 - Responsi masih belum 100%
 - Warna web cenderung menggunakan warna biru
