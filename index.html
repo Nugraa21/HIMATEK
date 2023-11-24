@@ -6,11 +6,11 @@
    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
    <link rel="stylesheet" href="assets/css/styles.css">
 
-   <title>Animated login form - Bedimcode</title>
+   <title>LOGIN HIMATEK</title>
 </head>
 <body>
    <div class="login">
-      <img src="assets/img/login-bg.png" alt="login image" class="login__img">
+      <img src="assets/img/login-bg.jpg" alt="login image" class="login__img">
 
       <form action="#" class="login__form" onsubmit="validateForm()">
          <h1 class="login__title">Login</h1>
@@ -46,7 +46,7 @@
        var username = document.getElementById('login-username').value;
        var password = document.getElementById('login-pass').value;
        if (
-        username === 'a' && password === 'a'
+        username && password 
         ) 
         {
           alert('Klick ( OK ) untuk menuju halaman selanjutnya');
