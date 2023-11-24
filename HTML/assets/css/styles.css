@@ -122,6 +122,24 @@ img {
 .login__box:nth-child(2) input {
   padding-right: 1.8rem;
 }
+.login__check, .login__check-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__check {
+  margin-bottom: 1.5rem;
+}
+.login__check-label, .login__forgot, .login__register {
+  font-size: var(--small-font-size);
+}
+.login__check-group {
+  column-gap: 0.5rem;
+}
+.login__check-input {
+  width: 16px;
+  height: 16px;
+}
 .login__forgot {
   color: var(--white-color);
 }

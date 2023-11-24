@@ -1,68 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-   <link rel="stylesheet" href="assets/css/styles.css">
-   <link rel="icon" href="HTML/MEDIA/HIMATEK 2.png" type="icon">
-
-   <title>LOGIN HIMATEK</title>
-</head>
+    <link rel="stylesheet" href="HTML/CSS/HIMATEK.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMATEK</title>
+    <link rel="icon" href="HTML/MEDIA/HIMATEK 2.png" type="icon">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /></head> -->
 <body>
-   <div class="login">
-      <img src="assets/img/login-bg.jpg" alt="login image" class="login__img">
-
-      <form action="#" class="login__form" onsubmit="validateForm()">
-         <h1 class="login__title">Login</h1>
-
-         <div class="login__content">
-            <div class="login__box">
-               <i class="ri-user-3-line login__icon"></i>
-
-               <div class="login__box-input">
-                  <input type="text" required class="login__input" id="login-username" placeholder=" ">
-                  <label for="login-username" class="login__label">Username</label>
-               </div>
+            <div class="navbar-whatsapp"  >
+                <a href="http://wa.me//6283149333194">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </a>
             </div>
-
-            <div class="login__box">
-               <i class="ri-lock-2-line login__icon"></i>
-
-               <div class="login__box-input">
-                  <input type="password" required class="login__input" id="login-pass" placeholder=" ">
-                  <label for="login-pass" class="login__label">Password</label>
-                  <i class="ri-eye-off-line login__eye" id="login-eye"></i>
-               </div>
+            <div class="HTML/navbar-navjs" id="options" >
+                <a href="HTML/Profils.html">Profil</a>
+                <a href="HTML/Galeri.html">Galeri</a>
+                <a href="HTML/Anggota.html">Anggota</a>
             </div>
-         </div>
-         <button type="submit" class="login__button">Login</button>
-      </form>
-   </div>
-   <!--=============== MAIN JS ===============-->
-   <script src="assets/js/main.js"></script>
+            <div class="row">
+                <div class="navbar-extrajs" id="contak">
+                    <a href="https://mail.google.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-at-sign">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/himatek_utdi/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-instagram">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="http://wa.me//6283149333194">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    </a>
+                    <a href="https://github.com/Nugraa21">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                </div>
+            </div>
+    <section>
+        <div class="navbar-whatsapp"  >
+            <a href="http://wa.me//6283149333194">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+        </div>
+    </section>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">HIMA<span>TEK</span></a>
+        <div>
+        
+        </div>
+        <div class="navbar-nav">
+            <a href="HTML/Profils.html">Profil</a>
+            <a href="HTML/Galeri.html">Galeri</a>
+            <a href="HTML/Anggota.html">Anggota</a>
+            <a class="daftar" href="HTML/index.html">DAFTAR</a>
+        </div>
+            <div class="navbar-extra">
+                <a href="https://mail.google.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-at-sign">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/himatek_utdi/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-instagram">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="http://wa.me//6283149333194">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </a>
+                <a href="https://github.com/Nugraa21">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>                </a>
+            </div>
+            <div class="navbar-navv">
+                <a href="#" onclick="showOptions() "> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg></a>
+                <a href="#" onclick="showOptionss() "> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></a>
+            </div>  
 
-   <!-- <script>
-    function validateForm() {
-       var username = document.getElementById('login-username').value;
-       var password = document.getElementById('login-pass').value;
-       if (
-        username && password 
-        ) 
-        {
-          alert('Klick ( OK ) untuk menuju halaman selanjutnya');
-          window.location.href = "HTML/HIMATEK.html";
+    </nav>
+ <section class="content" id="home">
+    <div class="video">
+        <video class="video-bg" autoplay loop muted playsinline width="" height="" >
+                <source src="HTML/MEDIA/BG-HIMATEK-2.mp4" type="video/webm">
+            </video>
+        </div>
+ </section>
 
-          setTimeout(function() {
-             window.location.href = "HTML/HIMATEK.html";
-          }, 0);
+ <section id="about" class="about">
+    <div class="row">
+        <div class="content" data-aos="flip-left" >
+            <img data-aos="fade-up" src="HTML/MEDIA/HIMATEK-1.png" alt="Tentang Kami" width="25%" height="25%">
 
-       } else {
-          alert('Maaf anda tidak di kenal');
-       }
-        return false;
-    }
- </script> -->
- 
+            <h3>Apa itu HIMATEK</h3>
+            <p>
+                Himpunan Mahasiswa Teknik Komputer yang biasa di singkat dengan HIMA TEK <br> merupakan himpunan yang menampung aspirasi mahasiswa jurusan Teknik Komputer <br> Universitas Teknologi Digital Indonesia (UTDI).</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content kaprodi" data-aos="flipp-left" >
+            <img  data-aos="fade-up" src="HTML/MEDIA/Kaprodi.png" alt="Tentang Kami" width="25%" height="25%">
+
+            <h3>Lutfan Hadi Pramono, S.ST, M.T.</h3>
+            <p>Kepala program studi Teknik Komputer</p>
+        </div>
+    </div>
+</section>
+ <section id="about" class="about">
+    </div>
+</section>
+<section class="sec" ></section>
+<section class="content-anggota contentt">
+    <div class="jabatan">
+        <h1>Pengurus harian HIMATEK</h1>
+        <h2>Periode 2022 - 2024</h2>
+    </div>
+    <div class="panah-pengurus" >
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/aldi.jpg" width="200" height="200" viewBox="3 0 3 24">
+            <h1>Ketua Umum</h1>
+            <h2>Fitra Putra Aldi Wijaya</h2>
+            <p>NPA: HIMATEK/22-01/03</p>
+        </div>
+    </div>
+    <div class="panah-pengurus" >
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/rohmat.jpg "width="200" height="200" viewBox="3 0 3 24" >
+            <h1>Wakil Ketua Umum</h1>
+            <h2>Rohmat Cahyo Susilo</h2>
+            <p>NPA: HIMATEK/22-01/01</p>
+        </div>
+    </div>
+    <div class="panah-pengurus">
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/ibnu.jpg" width="200" height="200" viewBox="3 0 3 24">
+            <h1>Sekertaris l</h1>                
+            <h2>Ibnu Hibban Dzulfikri</h2>
+            <p>NPA: HIMATEK/22-01/09</p>
+        </div>
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/yoga.jpeg" width="200" height="200" viewBox="3 0 3 24">
+            <h1>Sekertaris ll </h1>                
+
+            <h2>Yoga Saputra</h2>
+            <p>NPA: HIMATEK/22-01/12</p>
+        </div>
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/fadrian.jpg" width="200" height="200" viewBox="3 0 3 24">
+            <h1>Bendahara l</h1>
+            <h2>Muhammad Fadrian Samhar</h2>
+            <p>NPA: HIMATEK/22-01/04</p>
+        </div>
+        <div class="column side" data-aos="zoom-in">
+            <img src="HTML/s2/johan.jpg" width="200" height="200" viewBox="3 0 3 24">
+            <h1>Bendahara ll</h1>
+            <h2>Johan Maulana</h2>
+            <p>NPA: HIMATEK/22-01/05</p>
+        </div>
+    </div>
+    <div class="jabatan">
+
+    </div>
+</section>
+<div class="promosi-logo">
+    <h1>Bergabung ke HIMATEK</h1>
+    <p>Saat Ini HIMATEK UTDI telah membuka Open Recruitmen untuk Mahasiswa Baru Program Studi Teknik Komputer di Universitas Teknologi Digital Indonesia</p>
+</div>
+<div class="promosi-iklan"></div>
+    <section class="products" id="products">
+        
+        <section id="menu" class="pengurus">
+            <p>KEUNTUNGAN BERGABUNG
+                HIMATEK - UTDI
+            </p>
+        </section>
+        <div class="roow">
+            <div class="product-card" data-aos="zoom-in" >
+                <div class="product-image">
+                    <img src="HTML/MEDIA/legal.png" alt="Product 1">
+                </div>
+                <div class="product-content" >
+                    <h3>Legal</h3>
+                    <div class="product-price">Kami merupakan Organisasi Mahasiswa yang sudah dinaugi oleh Kaprodi Teknik Komputer (Kemahasiswaan) Universitas Teknologi Digital Indonesia</div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-image">
+                    <img src="HTML/MEDIA/kreatif.png" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3> Berfikir Kreatif</h3>
+                    <div class="product-price">Kami memiliki SDM yang sangat aktif dan memiliki pemikiran yang sangat kreatif serta dapat mendukung Anda dalam hal Perkuliahan dan Minat Bakat</div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-image">
+                    <img src="HTML/MEDIA/profesional.png" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Profesional</h3>
+                    <div class="product-price">Kepengurusan kami sangatlah profesional, selalu siap menampung aspirasi dari para Mahasiswa Program Studi Sistem Informasi di UTDI</div>
+                </div>
+            </div>
+        </div>
+        <div class="roow">
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-image">
+                    <img src="HTML/MEDIA/fasilitas.png" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Fasilitas Terbaik</h3>
+                    <div class="product-price">Kami memiliki Berbagai fasilitas yang dapat mendukung perkembangan mahasiswa Program Studi Sistem Informasi di UTDI</div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-image">
+                    <img src="HTML/MEDIA/kerjasama.png" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Kerjasama</h3>
+                    <div class="product-price">Kami memiliki program kerja yang bekerjasama dengan beberapa mitra mulai dari organisasi internal maupun external dari Universitas Teknologi Digital Indonesia</div>
+                </div>
+            </div>
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-image">
+                    <img src="HTML/MEDIA/totalitas.png" alt="Product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Totalitas</h3>
+                    <div class="product-price">Kami mengerjakan program dengan optimal, baik dalam berpikir, bertindak, berbicara, dan bekerja sama dengan orang lain.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="promosi">
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
+                <source src="HTML/MEDIA/BG-HIMATEK-2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <footer>
+        <div class="fouter" >
+            <div class="fouter-logo"  data-aos="flip-up">
+                <h4>HIMA <span>TEK</span></h4>
+                <p>Himpunan Mahasiswa Teknik Komputer</p>
+                <ol>
+                    <li><a href="HTML/Profils.html">Profile</a></li>
+                    <li><a href="#">Galeri</a></li>
+                    <li><a href="HTML/Anggota.html">Anggota</a></li>
+                    <li><a href="#home">Ke ATAS</a></li>
+                </ol>
+                
+            </div>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="">HIMATEK</a>. | &copy; 2023.</p>
+            <p>Develop by <a href="">Ludang Prasetyo N | Nugra315@gmail.com</a>. </p>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </footer>
+
+    <script type="text/javascript" src="HTML/JS/HIMATEK.js" >
+            
+    </script>
 </body>
 </html>

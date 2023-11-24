@@ -27,8 +27,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
+    /* background-image: linear-gradient(to bottom right, #00091b, #003c64); */
     background-color: rgb(1, 1, 1);
-    border-bottom: 3px solid #393939;
+    /* border-bottom: 3px solid #393939; */
     position: fixed;
     top: 0;
     left: 0;
@@ -227,6 +228,7 @@ body {
 
 
 /* section content  */
+
 .kaprodi img{
     border-radius: 50%;
     width: 40%;
@@ -246,6 +248,7 @@ body {
 }
 .content{
     background-color: #0079ff;
+    
 
 }
 
@@ -254,6 +257,8 @@ body {
     line-height: 1.6;
     padding: 1rem;
     background-color: #002491;
+    border-bottom: 3px solid #000000;
+
 
 }
 .jabatan h1{
@@ -275,6 +280,7 @@ body {
 .panah-pengurus{
     padding-top: 2rem;
     background-color: #001657;
+    
 }
 .column {
     padding-top: 1rem;
@@ -284,6 +290,8 @@ body {
     /* background-color: rgba(255, 255, 255, 0.678); */
     border-radius: 1rem;
     /* border: 4px solid rgb(0, 0, 0); */
+    border-bottom: 3px solid #00039b;
+
 
 
 }
