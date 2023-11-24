@@ -10,7 +10,6 @@
 function showOptions() {
   var optionsDiv = document.getElementById("options");
 
-  // Toggle display property
   if (optionsDiv.style.display === "none") 
   {
     optionsDiv.style.display = "block";
@@ -23,7 +22,6 @@ function showOptions() {
 function showOptionss() {
   var optionsDiv = document.getElementById("contak");
 
-  // Toggle display property
   if (optionsDiv.style.display === "none") 
   {
     optionsDiv.style.display = "block";

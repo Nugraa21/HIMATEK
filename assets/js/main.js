@@ -18,3 +18,23 @@ const showHiddenPass = (loginPass, loginEye) =>{
  }
  
  showHiddenPass('login-pass','login-eye')
+
+ function validateForm() {
+   var username = document.getElementById('login-username').value;
+   var password = document.getElementById('login-pass').value;
+   if (
+    username && password 
+    ) 
+    {
+      alert('Klick ( OK ) untuk menuju halaman selanjutnya');
+      window.location.href = "HTML/HIMATEK.html";
+
+      setTimeout(function() {
+         window.location.href = "HTML/HIMATEK.html";
+      }, 0);
+
+   } else {
+      alert('Maaf anda tidak di kenal');
+   }
+    return false;
+}
