@@ -1,7 +1,10 @@
 # HIMATEK
-Websait Himpunan Mahasiswa Teknik Komputer 
 
-#Tampilan web 
+"Web ini merupakan salah satu tugas mata kuliah Pemrograman Web Client, program studi Teknik Komputer Universitas Teknologi Digital Indonesia (UTDI), Yogyakarta"
+
+
+
+#Tampilan web Himpunan Mahasiswa Teknik Komputer 
 - Responsi masih belum 100%
 - Warna web cenderung menggunakan warna biru
 - Desain web cuman bagian front end
