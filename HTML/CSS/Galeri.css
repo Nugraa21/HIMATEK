@@ -12,9 +12,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #0079ff;
+    background-color: #4da0ff;
     color: #ffffff;
-    min-height: 20000px;
+    /* min-height: 20000px; */
 }
 
 /* Navbar */
@@ -25,7 +25,7 @@ body {
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgb(1, 1, 1);
-    border-bottom: 3px solid #393939;
+    /* border-bottom: 3px solid #393939; */
     position: fixed;
     top: 0;
     left: 0;
@@ -79,15 +79,6 @@ body {
         border-radius: 5px;
 }
 
-.content{
-    padding-top: 8rem;
-    padding: 8rem 3%;
-
-}
-.row{
-    display: flex;
-}
-
 .navbar-extrajs{
     text-align: center;
         background-color: #005eec;
@@ -126,38 +117,21 @@ body {
 
 
 }
-.navbar-whatsapp{
-    position: fixed;
-    margin: 1rem 3%;
-    /* padding-top: 10rem; */
-    top: 50rem;
-    /* left: 1rem; */
-    /* right: 115rem; */
-    /* height: 40px; */
-    /* top: 90%; */
-    z-index: 9999;
-    padding: 1rem;
-        background-color: rgb(0, 236, 90);
-        border-radius: 5px;
 
-}
 .navbar-extrajs:hover,
-.navbar-navjs:hover ,
-.navbar-whatsapp:hover{
+.navbar-navjs:hover{
         background-color: #001657;
         border-radius: 5px;
 
 }
 .navbar-extrajs a ,
-.navbar-navjs a ,
-.navbar-whatsapp a{
+.navbar-navjs a{
     color: #fff;
     margin: 0 0.5rem;
 }
 
 .navbar-extrajs a:hover ,
-.navbar-navjs a:hover ,
-.navbar-whatsapp a:hover{
+.navbar-navjs a:hover{
     color: #005eec;
 }
 /* display none js */
@@ -168,6 +142,56 @@ body {
 
 /* ========================================= */
 
+.content{
+    padding: 1rem 0% 3rem;
+}
+
+.kegiatan{
+    
+    padding: 2rem;
+    background-color: #4372ffce;
+    text-align: center;
+    border-radius: 1rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+
+
+}
+.kegiatan-text {
+    padding: 1rem;
+    height: 10%;
+    width: 10%;
+    border-radius: 1rem;
+    background-color: #005eec;
+    border-bottom: 3px solid rgb(0, 28, 71);
+    
+}
+.kegiatan-text p{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    
+}
+.kegiatan-text h1{
+    color: yellow;
+    font-size: 2em;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.kegiatan img{ 
+    width: 40rem;
+    border-radius: 1rem;
+    /* border: 2px solid rgb(0, 0, 0); */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 9);
+
+
+}
+.kegiatan-data{
+    width: 50rem;
+}
 
 
 
@@ -178,4 +202,68 @@ body {
 
 
 
+/* Footer */
+.fouter{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    background-color: #0077ff;
+    text-align: center;
+}
+.credit{
+    background-color: #808080;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.fouter-logo h4 {
+    
+    background-color: #3b3a3a38;
+    border-radius: 1rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.3rem;
 
+
+
+}
+.fouter-logo p {
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.fouter-logo {
+    list-style: none;
+    padding: 1rem;
+    line-height: 1.6;
+
+}
+.fouter-logo ol{
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+
+
+}
+.fouter-logo ol li a{
+    color: #fff;
+
+
+}
+.fouter-logo ol li a:hover{
+    color: #000000;
+
+
+}
+.credit{
+    background-image: linear-gradient(to bottom right, #0077ff, #00087c);
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+}
+.credit a{
+    color: #000000;
+
+
+}
