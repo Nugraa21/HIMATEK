@@ -85,16 +85,11 @@ body {
         border-bottom: solid rgb(0, 31, 134);
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
         position: fixed;
-        margin: 1rem 3%;
-        /* padding-top: 10rem; */
+        margin: 1rem 2.2%;
         top: 14rem;
-        /* left: 1rem; */
-        /* right: 115rem; */
-        /* height: 40px; */
-        /* top: 90%; */
         z-index: 9999;
         padding: 1rem;
-            border-radius: 5px;
+        border-radius: 5px;
 
 
 }
@@ -105,12 +100,7 @@ body {
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
         position: fixed;
         margin: 1rem 3%;
-        /* padding-top: 10rem; */
         top: 9rem;
-        /* left: 1rem; */
-        /* right: 115rem; */
-        /* height: 40px; */
-        /* top: 90%; */
         z-index: 9999;
         padding: 1rem;
             border-radius: 5px;
@@ -141,7 +131,7 @@ body {
 }
 
 /* ========================================= */
-
+/* 
 .content{
     padding: 1rem 0% 3rem;
 }
@@ -155,7 +145,6 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     justify-content: center;
 
 
@@ -184,7 +173,6 @@ body {
 .kegiatan img{ 
     width: 40rem;
     border-radius: 1rem;
-    /* border: 2px solid rgb(0, 0, 0); */
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 9);
 
 
@@ -192,9 +180,122 @@ body {
 .kegiatan-data{
     width: 50rem;
 }
+ */
+.sec {
+    background-image: url(../MEDIA/bg2.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.jabatan {
+    text-align: center;
+    line-height: 1.6;
+    padding: 1rem;
+    background-color: #002491;
+
+}
+.jabatan p {
+    text-align: center;
+    line-height: 1.6;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: #002491;
+
+}
+
+.jabatan h1 {
+    color: #fff;
+    font-size: 3rem;
 
 
+}
 
+.jabatan h2 {
+    color: yellow;
+
+}
+.jabatan h3 {
+    padding: 1rem;
+    color: #0066ff;
+    background-color: yellow;
+    border-radius: 1rem;
+
+}
+.jabatan span {
+    color: #000000;
+}
+
+.content {
+    padding-top: 3rem;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.panah {
+    padding-top: 2rem;
+    background-color: #001657b4;
+}
+
+.column {
+    padding-top: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    /* box-shadow: 6px 6px 30px rgba(0, 0, 0, 100); */
+    /* background-color: rgba(255, 255, 255, 0.678); */
+    border-radius: 1rem;
+    /* border: 4px solid rgb(0, 0, 0); */
+    line-height: 2rem;
+
+
+}
+
+.content-anggota .panah {
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.content-anggota .panah h2 {
+    background-color: #008cff;
+    border-radius: 1rem;
+    padding: 0.3em;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 100);
+    cursor: pointer;
+
+}
+
+.content-anggota .panah h2:hover {
+    background-color: #002b4e;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 100);
+
+}
+
+.content-anggota .panah p {
+    color: yellow;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.content-anggota .panah img {
+    border-radius: 5%;
+    border: 2px solid rgb(0, 2, 92);
+
+
+}
 
 
 
