@@ -3,9 +3,9 @@
 
 ## Daftar Isi
 - [HOME](#)
-- [HTML](#HTML)
-- [CSS](#CSS)
-- [JS](#JAVASCRIPTS)
+- [HTML](#)
+- [CSS](#)
+- [JS](#)
 
 ## 
 
