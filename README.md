@@ -23,11 +23,11 @@
 <h1 align="center"> Kelompok </h1>
 
 ##  Nama Anggota
-> Rohmat cahyo susilo  CS  ( 2255100  )
+> Rohmat cahyo susilo  CS  ( 225510019 )
 
 >Ludang prasetyo nugroho  ( 225510017 )
 
->M. Rifky nur yasin  ( 2255100   )
+>M. Rifky nur yasin  ( 225510018 )
 
 >M. Fadrian samhar   ( 225510005 )
 
