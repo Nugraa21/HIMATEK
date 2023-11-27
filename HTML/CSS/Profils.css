@@ -147,7 +147,10 @@ body {
 
 .asss{
     font-size: 3rem;
-    color: #ff0000;
+    color: #ffffff;
     text-align: center;
-    padding-top: 7rem;
+    padding: 7rem;
+    background: #ff0000;
+    margin: 6rem;
+    border-radius: 1rem;
 }
