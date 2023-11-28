@@ -153,44 +153,6 @@ body {
     padding: 10rem;
 }
 
-.content{
-    padding-top: 2.5%;
-}
-.row{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1rem;
-}
-
-.row ol {
-    padding: 2rem;
-    
-}
-.colum{
-    
-    border: solid white;
-    border-bottom: solid white;
-    backdrop-filter: blur(10px);    border-radius: 1rem;
-    line-height: 2.5rem;
-    
-}
-
-.colum h1{
-    color: yellow;
-    font-size: 3rem;
-    text-align: center;
-    padding: 1rem;
-}
-.side{
-    padding: 1rem;
-}
-
-
-
-
-
 
 
 
