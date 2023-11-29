@@ -9,6 +9,24 @@
 
 ## 
 
+##
+```bash
+git add .
+```
+```bash
+git commit -m 'eror'
+```
+```bash
+git push
+```
+```bash
+git status
+```
+```bash
+git pull
+```
+
+
 <h1 align="center"></h1>
 
 
