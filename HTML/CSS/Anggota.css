@@ -92,89 +92,73 @@ body {
         border-radius: 5px;
 }
 
-.row{
-    display: flex;
-}
-
-.navbar-extrajs{
-    text-align: center;
-        background-color: #005eec;
-        border-bottom: solid rgb(0, 31, 134);
-        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
-        position: fixed;
-        margin: 1rem 3%;
-        /* padding-top: 10rem; */
-        top: 14rem;
-        /* left: 1rem; */
-        /* right: 115rem; */
-        /* height: 40px; */
-        /* top: 90%; */
-        z-index: 9999;
-        padding: 1rem;
-            border-radius: 5px;
-
+.navbar-extra {
+    padding: 0.3rem;
+    background-color: #005eec;
+    border-radius: 5px;
 
 }
-.navbar-navjs{
-    text-align: center;
-        background-color: #005eec;
-        border-bottom: solid rgb(0, 31, 134);
-        box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
-        position: fixed;
-        margin: 1rem 3%;
-        /* padding-top: 10rem; */
-        top: 9rem;
-        /* left: 1rem; */
-        /* right: 115rem; */
-        /* height: 40px; */
-        /* top: 90%; */
-        z-index: 9999;
-        padding: 1rem;
-            border-radius: 5px;
 
+.navbar-extra:hover {
+    padding: 0.3rem;
+    background-color: #001657;
+    border-radius: 5px;
 
 }
-.navbar-whatsapp{
-    position: fixed;
-    margin: 1rem 3%;
-    /* padding-top: 10rem; */
-    top: 50rem;
-    /* left: 1rem; */
-    /* right: 115rem; */
-    /* height: 40px; */
-    /* top: 90%; */
-    z-index: 9999;
-    padding: 1rem;
-        background-color: rgb(0, 236, 90);
-        border-radius: 5px;
 
-}
-.navbar-extrajs:hover,
-.navbar-navjs:hover ,
-.navbar-whatsapp:hover{
-        background-color: #001657;
-        border-radius: 5px;
-
-}
-.navbar-extrajs a ,
-.navbar-navjs a ,
-.navbar-whatsapp a{
+.navbar .navbar-extra a {
     color: #fff;
     margin: 0 0.5rem;
 }
 
-.navbar-extrajs a:hover ,
-.navbar-navjs a:hover ,
-.navbar-whatsapp a:hover{
+.navbar .navbar-extra a:hover {
     color: #005eec;
 }
-/* display none js */
-.navbar-navjs ,
-.navbar-extrajs{
+
+.navbar-navv {
     display: none;
 }
 
+.navbar-navjs {
+    text-align: center;
+    background-color: #005eec;
+    border-bottom: solid rgb(0, 31, 134);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 9);
+    position: fixed;
+    width: 100%;
+    /* padding-top: 10rem; */
+    top: 6rem;
+    /* left: 1rem; */
+    /* right: 115rem; */
+    /* height: 40px; */
+    /* top: 90%; */
+    z-index: 99990;
+    padding: 1rem;
+    border-radius: 5px;
 
+
+}
+
+.navbar-extrajs:hover,
+.navbar-navjs:hover {
+    background-color: #001657;
+    border-radius: 5px;
+
+}
+
+.navbar-navjs a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.navbar-navjs a:hover {
+    color: #005eec;
+}
+
+/* display none js */
+.navbar-navjs {
+    display: none;
+}
 /* ----------------------------------- */
 
 .jabatan{

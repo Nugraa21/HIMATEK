@@ -113,7 +113,7 @@ img {
 .login__label {
   position: absolute;
   left: 0;
-  top: 13px;
+  top: 13%;
   font-weight: var(--font-medium);
   transition: top 0.3s, font-size 0.3s;
 }
