@@ -2,37 +2,42 @@
 <h3 align="center">Code dasar yang saya pakai</h3>
 
 ## Daftar Isi
+
 - [HOME](#)
 - [HTML](#)
 - [CSS](#)
 - [JS](#)
 
-## 
+##
 
 ##
+
 ```bash
 git add .
 ```
+
 ```bash
 git commit -m 'eror'
 ```
+
 ```bash
 git push
 ```
+
 ```bash
 git status
 ```
+
 ```bash
 git pull
 ```
 
-
 <h1 align="center"></h1>
-
 
 <h3 align="center">Structure code</h3>
 
 # HTML
+
 ```bash
 <!DOCTYPE html>
 <html lang="en">
@@ -54,7 +59,7 @@ git pull
     <!-- Navigasi bar awal  -->
     <nav class="navbar">
         <div class="navbar-logo">
-            
+
         </div>
         <div class="navbar-nav">
 
@@ -165,12 +170,13 @@ git pull
 <script src="........"></script>
 
 <script>
-    
+
 </script>
 </body>
 </html>
 
 ```
+
 # CSS
 
 ```bash
@@ -195,11 +201,11 @@ body{
 function showOptions() {
   var optionsDiv = document.getElementById("options");
 
-  if (optionsDiv.style.display === "none") 
+  if (optionsDiv.style.display === "none")
   {
     optionsDiv.style.display = "block";
-  } 
-  else 
+  }
+  else
   {
     optionsDiv.style.display = "none";
   }
@@ -207,15 +213,21 @@ function showOptions() {
 function showOptionss() {
   var optionsDiv = document.getElementById("contak");
 
-  if (optionsDiv.style.display === "none") 
+  if (optionsDiv.style.display === "none")
   {
     optionsDiv.style.display = "block";
-  } 
-  else 
+  }
+  else
   {
     optionsDiv.style.display = "none";
   }
 }
 ```
-## 
-## 
+
+##
+
+```bash
+datA
+```
+
+##

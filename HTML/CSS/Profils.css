@@ -151,7 +151,77 @@ body {
 
 /* ================================================== */
 
-.background{
+.main{
+    padding: 4rem;
+    margin: 0;
+    justify-content: center;
+
+}
+.content-visi-misi{
+
+}
+.visi {
+    padding:1.5rem ;
+    background-color: #005eec;
+    color: white;
+    border: 5px solid white;
+}
+.misi {
+    padding: 1.5rem;
+    background-color: #005eec;
+    color: white;
+    border: 5px solid white;
+}
+.visi h1{
+    color: yellow;
+    
+}
+.misi h1{
+    color: yellow;
+    
+}
+.visi a{
+    text-decoration: none;
+    list-style: none;    
+}
+.misi a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .background{
     background-size: cover;
     padding: 10rem;
 }
@@ -194,7 +264,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     overflow: hidden;
     z-index: -100;
 }
@@ -204,7 +274,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    /* /* width: 100%; */
+    /* width: 100%;
     height: 100%; 
 }
 
@@ -214,4 +284,4 @@ body {
     
 }
 
-
+ */
