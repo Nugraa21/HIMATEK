@@ -1,15 +1,7 @@
 
-// Toggle class active untuk hamburger menu
-// const navbarNav = document.querySelector('.navbar-nav');
-// ketika hamburger menu di klik
-// document.querySelector('#hamburger-menu').onclick = () => {
-//   navbarNav.classList.toggle('active');
-// };
-
-
 function showOptions() {
   var optionsDiv = document.getElementById("options");
-
+  
   if (optionsDiv.style.display === "none") 
   {
     optionsDiv.style.display = "block";
@@ -31,6 +23,14 @@ function showOptionss() {
     optionsDiv.style.display = "none";
   }
 }
+
+
+// Toggle class active untuk hamburger menu
+// const navbarNav = document.querySelector('.navbar-nav');
+// ketika hamburger menu di klik
+// document.querySelector('#hamburger-menu').onclick = () => {
+//   navbarNav.classList.toggle('active');
+// };
 
 // yang mau di kick di beri ini    onclick="showOptions()
 
