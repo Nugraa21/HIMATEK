@@ -11,28 +11,25 @@
 - bagian back end masih inprogres
 - untuk media masih tersimpan pada program belum mengunakan data bes
 
-# tampilan 
+# tampilan
 
-
-
-![Proyek Baru 3  9AE994D](https://github.com/Nugraa21/HIMATEK/assets/150422561/c6d096d4-af04-4b8e-bee9-631cf4974c1d)
+![Proyek Baru 3  9AE994D](profiles.png)
 
 <!-- <img align="right" alt="Coding" width="400" src="https://avatars.githubusercontent.com/u/150422561?v=4"> -->
 
-
 <h1 align="center"> Kelompok </h1>
 
-##  Nama Anggota
-> Rohmat cahyo susilo  CS  ( 225510019 )
+## Nama Anggota
 
->Ludang prasetyo nugroho  ( 225510017 )
+> Rohmat cahyo susilo CS ( 225510019 )
 
->M. Rifky nur yasin  ( 225510018 )
+> Ludang prasetyo nugroho ( 225510017 )
 
->M. Fadrian samhar   ( 225510005 )
+> M. Rifky nur yasin ( 225510018 )
 
->Yoga saputra   ( 225510012 )
+> M. Fadrian samhar ( 225510005 )
 
+> Yoga saputra ( 225510012 )
 
 <h3 align="left"></h3>
 <p align="left">
@@ -58,13 +55,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 ```
-Menurut saya kode html lumayan mudah di hafal dan di terapkan dalam sebuah program kosong tanpa melihat contoh sebelum menerapkan kode tersebut 
 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+Menurut saya kode html lumayan mudah di hafal dan di terapkan dalam sebuah program kosong tanpa melihat contoh sebelum menerapkan kode tersebut
+
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 </a>
 
 ```sh
@@ -85,7 +83,8 @@ body {
 }
 
 ```
-Untuk bagia CSS saya masih agak triki karena saya juga harus menyesuwaikan margin ,display , flex . border ,dan layout pada sebuah web unu yang membuat saya masih kesusahan dalam penerapan sebuah layout web 
+
+Untuk bagia CSS saya masih agak triki karena saya juga harus menyesuwaikan margin ,display , flex . border ,dan layout pada sebuah web unu yang membuat saya masih kesusahan dalam penerapan sebuah layout web
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
 </a>
@@ -111,7 +110,9 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = 'block';
 }
 ```
-Memasuki bagian Javascripts  ini yang membuat saya lebih kepusingan karena banyaknya elemen yang harus menggunakan function dan itu saya belum bisa memahami bagai mana sebuah elemen pada sebuah javascripts bisa berjalan walau kode ini mirip dengan JAVA tetapi saya masih kesusahan dalam penerapan kode ke sebuah web 
+
+Memasuki bagian Javascripts ini yang membuat saya lebih kepusingan karena banyaknya elemen yang harus menggunakan function dan itu saya belum bisa memahami bagai mana sebuah elemen pada sebuah javascripts bisa berjalan walau kode ini mirip dengan JAVA tetapi saya masih kesusahan dalam penerapan kode ke sebuah web
+
  </p>
 
 #
